@@ -32,7 +32,7 @@ cursor.execute('SELECT * FROM "Track" WHERE "Composer" = %s', ["Queen"])
 # from the "Track" table
 # cursor.execute('SELECT * FROM "Track" WHERE "Composer" = %s', ["AC/DC"])
 
-# Query 8 - select all tracks where the composer is "AC/DC"
+# Query 8 - select all tracks where the composer is "test"
 # from the "Track" table. This wil fail as there is no composer called test
 # cursor.execute('SELECT * FROM "Track" WHERE "Composer" = %s', ["test"])
 
