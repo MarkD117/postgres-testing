@@ -7,8 +7,9 @@ from sqlalchemy.orm import sessionmaker
 
 # executing the instructions from the "chinook" database
 db = create_engine("postgresql:///chinook")
-# This new 'base' class will essentially grab the metadata that is produced by our database
-# table schema, and creates a subclass to map everything back to us here within the 'base' variable.
+# This new 'base' class will essentially grab the metadata that
+# is produced by our database table schema, and creates a subclass
+# to map everything back to us here within the 'base' variable.
 base = declarative_base()
 
 
